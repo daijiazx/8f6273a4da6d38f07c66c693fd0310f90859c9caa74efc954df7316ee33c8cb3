@@ -3,22 +3,20 @@ name: daijiazx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 5/6 * * *'
+    - cron: '24 5/6 * * *'
 
-jobs:  # 9412
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: daijiazx
         env:
-          nhi8153: ${{ secrets.nhi8153 }}
+          qlo160: ${{ secrets.qlo160 }}
         run: |
-          echo $nhi8153 | jq -r .srx5 | /bin/bash
-          echo $qruol17256 | jq -r .rr5806 | /bin/bash
-          echo $qk8 | jq -r .wcdry847 | /bin/bash
-          echo $mrmy0353 | jq -r .ibvl1330 | /bin/bash
-          echo $of23980 | jq -r .zs67957 | /bin/bash
-          echo $taskg1405 | jq -r .py5 | /bin/bash
-          echo $ickga0 | jq -r .mb349 | /bin/bash
+          echo $qlo160 | jq -r .gqr66 | /bin/bash
+          echo $snqnl35082 | jq -r .wz2 | /bin/bash
+          echo $k32604 | jq -r .ij2304 | /bin/bash
+          echo $odrhd8348 | jq -r .rucbd41484 | /bin/bash
+          echo $nbz68 | jq -r .dxn67531 | /bin/bash
 
